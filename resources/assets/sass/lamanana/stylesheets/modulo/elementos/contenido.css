@@ -1,0 +1,14 @@
+/* line 2, ../../../sass/modulo/elementos/contenido.scss */
+.contenido .title {
+  color: rgba(56, 56, 56, 0.9);
+  padding: 10px 15px 5px 115px;
+  font-weight: 700;
+  font-size: 15px;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+/* line 12, ../../../sass/modulo/elementos/contenido.scss */
+.contenido .title a {
+  color: rgba(56, 56, 56, 0.9);
+}

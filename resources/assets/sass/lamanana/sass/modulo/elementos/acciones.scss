@@ -1,0 +1,13 @@
+%actions{
+		overflow:hidden;
+		position:relative;
+		background:#fff 50% none;
+		background-size:100% 100%;
+		background:none,-webkit-linear-gradient(top,rgba(255,255,255,0) 0,#fff 50%);
+		background:none,linear-gradient(180deg,rgba(255,255,255,0) 0,#fff 50%);
+		position:absolute;
+		width:100%;
+		bottom:0;
+		z-index:200;
+		
+}

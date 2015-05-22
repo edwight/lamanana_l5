@@ -1,0 +1,16 @@
+%caja {
+    width: 100%;
+    height: 100%;
+}
+div {
+    @extend %caja;
+}
+p {
+    @extend %caja;
+}
+
+%center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }

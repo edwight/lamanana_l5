@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+//Contenido..................... Esto que lees
+//Variables..................... Configuramos todas las variables del framework
+	//colores
+	//colores header
+ 	$darkBlue: rgba(5, 65, 111, 1);
+	$lightBlue: #005ba2;
+	$primary-color: #333;
+	//color link
+	$linkGray:rgba(56,56,56,.5); //link author 
+	$linkGray-light:rgba(56,56,56,0.9);//link categoria 
+	$white:#f4f4f4;
+
+$color_red : #FF0000;
+$color_blue: #0000FF;
+//Mixins........................ Mixins de SASS
+//z-index: 
+$capa1: 1001;
+$capa2: 1002;
+$capa3: 80;
+$capa4: 600;
+//Helpers....................... Clases de ayuda
+//Reset......................... Reinicio de valores CSS
+//Fuentes....................... Fuentes que vamos a importar
+$font-weight-light: 300;
+$font-weight-regular:400;
+$font-weight-bold:600;
+//Links......................... Formas y estilos de los links
+//Tablas........................ Estilos de las tablas
+//Botones....................... Estilos de Botones, skins y variantes
+//Elementos..................... Elementos varios como Imagen, HR, etc...
+//Tipografía.................... Encabezados, small, párrafos, listas, etc...
+$font-family-text: 'source-sans-pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-author: Lato,sans-serif;
+//Navegación.................... Una navegación, por si quieres usar esta y no la tuya propia
+//Formularios................... Estilos de todos los elementos de formularios y sus variantes
+//Sitio......................... Aquí escribes tus estilos para la web se vea como tú quieres ;)
+//Paginación.................... Estilos básicos para las paginaciones
+//Texturas...................... Badges, cajas y wells
+//Breakpoints................... Importamos breakpoints basados en las variables @bp$
+$breakpoint-tablet: 768px;
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+//Patron........................ Estilos para la guía de patrones
+
+/*------------------------------------*\
+    $TAMAÑOS
+\*------------------------------------*/
+
+/**
+ * Definimos las fuentes a utilizar:
+ * $basefont para todos los textos inline
+ * $altfont para textos alternativos, como citas, intro, etc...
+ * $codefont para código
+ */
+
+$basefontsize:16px;
+$authorfontsize:11px;
+$authorfontsize2:0.7rem;
+		

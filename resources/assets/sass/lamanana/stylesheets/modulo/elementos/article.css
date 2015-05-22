@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+  * Centrar y dar un ancho m├íximo igual a $pagemaxwidth.
+*/
+/**
+  * fijar el valor al atributo box-sizing.
+*/
+/**
+  * Crear sombras soportadas por diferentes navegadores.
+*/
+/**
+  * generar transsition.
+*/
+/* line 2, ../../../sass/base/lib/Placeholders/articulo.scss */
+.article, .article--first, .article--no {
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1px 2px #a1acbd;
+  -moz-box-shadow: 0 1px 2px #a1acbd;
+  -ms-box-shadow: 0 1px 2px #a1acbd;
+  -o-box-shadow: 0 1px 2px #a1acbd;
+  box-shadow: 0 1px 2px #a1acbd;
+  border-radius: 2px;
+  -webkit-transition: box-shadow linear 0.3s;
+  -moz-transition: box-shadow linear 0.3s;
+  -ms-transition: box-shadow linear 0.3s;
+  -o-transition: box-shadow linear 0.3s;
+  transition: box-shadow linear 0.3s;
+  z-index: 600;
+}
+
+/* line 1, ../../../sass/base/lib/Placeholders/img.scss */
+.article .img, .article--first .fimg--first {
+  float: left;
+  width: 100px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 500;
+}
+/* line 11, ../../../sass/base/lib/Placeholders/img.scss */
+.article .img img, .article--first .fimg--first img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: -40%;
+}
+
+/* line 1, ../../../sass/base/lib/Placeholders/author.scss */
+.article .author, .article--first .author, .article--no .author--no {
+  font-family: Lato,sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 6px 10px 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  display: inline-block;
+}
+/* line 13, ../../../sass/base/lib/Placeholders/author.scss */
+.article .author a, .article--first .author a, .article--no .author--no a {
+  color: rgba(56, 56, 56, 0.5);
+}
+/* line 15, ../../../sass/base/lib/Placeholders/author.scss */
+.article .author a span, .article--first .author a span, .article--no .author--no a span {
+  margin-left: 5px;
+}

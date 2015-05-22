@@ -1,0 +1,11 @@
+Base
+En esta categoría se incluirán los estilos base de nuestro proyecto, 
+por ejemplo la hoja de estilo Normalize.css, 
+tipografías, fuentes, colores y márgenes básicos de todo el sitio.
+
+_constrained.scss
+_footer.scss
+_header.scss
+_home.scss
+_main.scss
+_nav.scss

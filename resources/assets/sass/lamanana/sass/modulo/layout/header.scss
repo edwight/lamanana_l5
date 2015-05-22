@@ -1,0 +1,24 @@
+@import "base/lib/mixins.scss";
+@import "base/variables.scss";
+#headermain {
+	height: 45px;
+}
+.share-bar {
+z-index: 1001;
+background-color: $lightBlue;
+width: 100%;
+position: fixed;
+top: 0;
+	&:hover{
+		@include transition(box-shadow linear .3s);
+		@include box-shadow(0 1px 8px #5c6b82);
+	}
+}
+
+
+
+
+
+
+
+

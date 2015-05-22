@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+  * Centrar y dar un ancho m├íximo igual a $pagemaxwidth.
+*/
+/**
+  * fijar el valor al atributo box-sizing.
+*/
+/**
+  * Crear sombras soportadas por diferentes navegadores.
+*/
+/**
+  * generar transsition.
+*/
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/*------------------------------------*\
+    $TAMA├æOS
+\*------------------------------------*/
+/**
+ * Definimos las fuentes a utilizar:
+ * $basefont para todos los textos inline
+ * $altfont para textos alternativos, como citas, intro, etc...
+ * $codefont para c├│digo
+ */
+/* line 3, ../../../sass/modulo/layout/header.scss */
+#headermain {
+  height: 45px;
+}
+
+/* line 6, ../../../sass/modulo/layout/header.scss */
+.share-bar {
+  z-index: 1001;
+  background-color: #005ba2;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+/* line 12, ../../../sass/modulo/layout/header.scss */
+.share-bar:hover {
+  -webkit-transition: box-shadow linear 0.3s;
+  -moz-transition: box-shadow linear 0.3s;
+  -ms-transition: box-shadow linear 0.3s;
+  -o-transition: box-shadow linear 0.3s;
+  transition: box-shadow linear 0.3s;
+  -webkit-box-shadow: 0 1px 8px #5c6b82;
+  -moz-box-shadow: 0 1px 8px #5c6b82;
+  -ms-box-shadow: 0 1px 8px #5c6b82;
+  -o-box-shadow: 0 1px 8px #5c6b82;
+  box-shadow: 0 1px 8px #5c6b82;
+}

@@ -1,0 +1,50 @@
+/**
+  * Centrar y dar un ancho máximo igual a $pagemaxwidth.
+*/
+
+%max-width{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+@mixin max-width($max-width : $pagemaxwidth)  {
+	@extend %max-width;
+	max-width: $max-width;
+	
+}
+
+/**
+  * fijar el valor al atributo box-sizing.
+*/
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+     -ms-box-sizing: $box-model; //ie
+     -o-box-sizing: $box-model; //opera
+        box-sizing: $box-model;
+}
+
+/**
+  * Crear sombras soportadas por diferentes navegadores.
+*/
+
+@mixin box-shadow($shadows) { 
+  -webkit-box-shadow: $shadows;
+    -moz-box-shadow: $shadows;
+    -ms-box-shadow: $shadows;
+    -o-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+/**
+  * generar transsition.
+*/
+
+@mixin transition($transition) {
+  -webkit-transition:$transition;
+  -moz-transition:$transition;
+  -ms-transition:$transition;
+  -o-transition:$transition;
+  transition:$transition;
+}

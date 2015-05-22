@@ -1,0 +1,33 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+/**
+* Bases
+**/
+@import "base/variables.scss";
+//@import "base/mixins.scss";
+//@import "base/lib/Placeholders/articulo.scss";
+//@import "base/reset.scss";
+//@import "base/debug.scss";
+
+
+/**
+* modulos
+**/
+
+@import "modulo/layout/header.scss";
+@import "modulo/layout/section.scss";
+@import "modulo/layout/aside.scss";
+@import "modulo/elementos/article.scss";
+
+ 
+.style_a {
+  color: $color_red;
+}
+.style_b {
+  color: $color_blue;
+}

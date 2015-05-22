@@ -1,0 +1,7 @@
+State
+Las reglas de estado son todas aquellas que determinan como se verá un módulo, 
+cuando se encuentra en un estado en específico, 
+las mismas se incluirán junto a las reglas del módulo.
+
+_animations.scss
+_mediaquery

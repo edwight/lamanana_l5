@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../RailsFTW420215/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/**
+* Bases
+**/
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/*------------------------------------*\
+    $TAMA├æOS
+\*------------------------------------*/
+/**
+ * Definimos las fuentes a utilizar:
+ * $basefont para todos los textos inline
+ * $altfont para textos alternativos, como citas, intro, etc...
+ * $codefont para c├│digo
+ */
+/**
+* modulos
+**/
+/**
+  * Centrar y dar un ancho m├íximo igual a $pagemaxwidth.
+*/
+/**
+  * fijar el valor al atributo box-sizing.
+*/
+/**
+  * Crear sombras soportadas por diferentes navegadores.
+*/
+/**
+  * generar transsition.
+*/
+/* line 3, ../sass/modulo/layout/header.scss */
+#headermain {
+  height: 45px;
+}
+
+/* line 6, ../sass/modulo/layout/header.scss */
+.share-bar {
+  z-index: 1001;
+  background-color: #005ba2;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+/* line 12, ../sass/modulo/layout/header.scss */
+.share-bar:hover {
+  -webkit-transition: box-shadow linear 0.3s;
+  -moz-transition: box-shadow linear 0.3s;
+  -ms-transition: box-shadow linear 0.3s;
+  -o-transition: box-shadow linear 0.3s;
+  transition: box-shadow linear 0.3s;
+  -webkit-box-shadow: 0 1px 8px #5c6b82;
+  -moz-box-shadow: 0 1px 8px #5c6b82;
+  -ms-box-shadow: 0 1px 8px #5c6b82;
+  -o-box-shadow: 0 1px 8px #5c6b82;
+  box-shadow: 0 1px 8px #5c6b82;
+}
+
+/* line 1, ../sass/modulo/layout/_section.scss */
+.section {
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  min-height: 300px;
+}
+
+/* line 1, ../sass/modulo/layout/_aside.scss */
+.aside-main--col3 {
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 320px;
+  text-align: center;
+}
+
+/* line 2, ../sass/base/lib/Placeholders/articulo.scss */
+.article, .article--first, .article--no {
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1px 2px #a1acbd;
+  -moz-box-shadow: 0 1px 2px #a1acbd;
+  -ms-box-shadow: 0 1px 2px #a1acbd;
+  -o-box-shadow: 0 1px 2px #a1acbd;
+  box-shadow: 0 1px 2px #a1acbd;
+  border-radius: 2px;
+  -webkit-transition: box-shadow linear 0.3s;
+  -moz-transition: box-shadow linear 0.3s;
+  -ms-transition: box-shadow linear 0.3s;
+  -o-transition: box-shadow linear 0.3s;
+  transition: box-shadow linear 0.3s;
+  z-index: 600;
+}
+
+/* line 1, ../sass/base/lib/Placeholders/img.scss */
+.article .img, .article--first .fimg--first {
+  float: left;
+  width: 100px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 500;
+}
+/* line 11, ../sass/base/lib/Placeholders/img.scss */
+.article .img img, .article--first .fimg--first img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: -40%;
+}
+
+/* line 1, ../sass/base/lib/Placeholders/author.scss */
+.article .author, .article--first .author, .article--no .author--no {
+  font-family: Lato,sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 6px 10px 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  display: inline-block;
+}
+/* line 13, ../sass/base/lib/Placeholders/author.scss */
+.article .author a, .article--first .author a, .article--no .author--no a {
+  color: rgba(56, 56, 56, 0.5);
+}
+/* line 15, ../sass/base/lib/Placeholders/author.scss */
+.article .author a span, .article--first .author a span, .article--no .author--no a span {
+  margin-left: 5px;
+}
+
+/* line 28, ../sass/screen.scss */
+.style_a {
+  color: #FF0000;
+}
+
+/* line 31, ../sass/screen.scss */
+.style_b {
+  color: #0000FF;
+}

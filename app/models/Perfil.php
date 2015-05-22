@@ -1,0 +1,25 @@
+<?php namespace lamanana/models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Perfil extends Model {
+
+	/**
+	 * The database table used by the model.
+	 *
+	 * @var string
+	 */
+	protected $table = 'perfiles';
+
+	/**
+	 * The attributes excluded from the model's JSON form.
+	 *
+	 * @var array
+	 */
+
+	public function user()
+    {
+        return $this->belongTo('User');
+    }
+
+}

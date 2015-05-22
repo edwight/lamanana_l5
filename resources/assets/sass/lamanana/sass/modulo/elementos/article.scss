@@ -1,0 +1,35 @@
+@import "base/lib/Placeholders/articulo.scss";
+@import "base/lib/Placeholders/img.scss";
+@import "base/lib/Placeholders/author.scss";
+//@import "base/lib/Placeholders/contenido.scss";
+.article{
+	@extend %articulo;
+	.img {
+		@extend %img;
+	}
+	.author{
+		@extend %author;
+	}
+	.contenido{
+		//@extend %contenido;
+	}	
+}
+.article--first{
+	@extend %articulo;
+	.fimg--first{
+		@extend %img;
+	} 
+	.author{
+		@extend %author;
+	}
+	.contenido .toPost{
+		//@extend %contenido;
+	}
+
+}
+.article--no{
+	@extend %articulo;
+	.author--no{
+		@extend %author;
+		}
+	}

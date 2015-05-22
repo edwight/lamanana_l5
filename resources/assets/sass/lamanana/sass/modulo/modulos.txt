@@ -1,0 +1,12 @@
+Module
+Los módulos son todos aquellos componentes reutilizables e independientes, 
+las dependencias de los módulos son los estilos básicos de la aplicación, 
+para asegurar que cumplan con esta premisa, deben de ser estructurados de tal 
+forma de que si son eliminados del proyecto no causarán problemas con otros 
+módulos o estilos.
+
+_video.scss
+_table.scss
+_icons.scss
+_form-search.scss
+_btn.scss
