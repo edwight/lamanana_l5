@@ -1,6 +1,7 @@
 <?php namespace lamanana;
 
 use Illuminate\Auth\Authenticatable;
+use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Auth\Passwords\CanResetPassword;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
@@ -22,7 +23,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['name', 'email', 'password'];
+	protected $fillable = ['name', 'email', 'password','type'];
 
 	/**
 	 * The attributes excluded from the model's JSON form.
@@ -43,5 +44,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return $this->hasMany('Chicahot');
     }
-
+    public function setPasswordAttribute($value){
+    	$this->attributes['password'] = \Hash::make($value);
+    }
 }

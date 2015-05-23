@@ -1,0 +1,165 @@
+.contenedor-logo {
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-color: #005ba2;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.contenedor-logo .logo {
+  width: 600px;
+  height: 200px;
+  position: relative;
+  margin: 0;
+  paddiong: 0;
+  background-image: url("http://i.imgur.com/4SpshJz.png");
+  background-size: 600px 200px;
+  background-repeat: no-repeat;
+}
+.share-bar {
+  z-index: 1001;
+  background: #005ba2;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+.share-bar:hover {
+  transition: box-shadow linear 0.3s;
+  box-shadow: 1px 18px 25px -5px rgba(0,0,0,0.33);
+}
+#headermain {
+  height: 45px;
+}
+.headermain {
+  width: 100%;
+  z-index: 1002;
+  padding: 0;
+  margin: 0 auto 0;
+  position: relative;
+  list-style: none;
+  font-size: 1.1em;
+  max-width: 1250px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+.bt-menu {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  line-height: 45px;
+  background-color: #05416f;
+  text-align: center;
+  font-size: 22px;
+  float: left;
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 80;
+}
+.bt-menu:before {
+  content: "\e604";
+}
+.logo {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 180px;
+  height: 45px;
+  margin-left: 60px;
+  background-image: url("http://i.imgur.com/4SpshJz.png");
+  background-size: 180px 45px;
+  background-repeat: no-repeat;
+}
+.sb-search-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  background: #fff;
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  z-index: 99;
+  font-family: inherit;
+  font-size: 20px;
+  color: #2c3e50;
+  display: none;
+}
+.sb-search-submit {
+  background: #fff;
+  opacity: 0;
+  color: transparent;
+  border: none;
+  outline: none;
+  z-index: 99;
+  display: none;
+}
+.sb-icon-search,
+.sb-search-submit {
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+.sb-icon-search {
+  color: #fff;
+  background: #05416f;
+  z-index: 99;
+  font-size: 22px;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.iconos {
+  float: right;
+  margin-right: 46px;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 0px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  line-height: 45px;
+  color: #fff;
+  font-family: 'FontAwesome';
+  font-size: 22px;
+  text-align: center;
+}
+.facebook {
+  text-shadow: 40px 40px 0 #1a336f, 39px 39px 0 #1a336f, 38px 38px 0 #1a336f, 37px 37px 0 #1a336f, 36px 36px 0 #1a336f, 35px 35px 0 #1a336f, 34px 34px 0 #1a336f, 33px 33px 0 #1a336f, 32px 32px 0 #1a336f, 31px 31px 0 #1a336f, 30px 30px 0 #1a336f, 29px 29px 0 #1a336f, 28px 28px 0 #1a336f, 27px 27px 0 #1a336f, 26px 26px 0 #1a336f, 25px 25px 0 #1a336f, 24px 24px 0 #1a336f, 23px 23px 0 #1a336f, 22px 22px 0 #1a336f, 21px 21px 0 #1a336f, 20px 20px 0 #1a336f, 19px 19px 0 #1a336f, 18px 18px 0 #1a336f, 17px 17px 0 #1a336f, 16px 16px 0 #1a336f, 15px 15px 0 #1a336f, 14px 14px 0 #1a336f, 13px 13px 0 #1a336f, 12px 12px 0 #1a336f, 11px 11px 0 #1a336f, 10px 10px 0 #1a336f, 9px 9px 0 #1a336f, 8px 8px 0 #1a336f, 7px 7px 0 #1a336f, 6px 6px 0 #1a336f, 5px 5px 0 #1a336f, 4px 4px 0 #1a336f, 3px 3px 0 #1a336f, 2px 2px 0 #1a336f, 1px 1px 0 #1a336f;
+  background-color: #2850ad;
+}
+.twitter {
+  text-shadow: 40px 40px 0 #28a6e6, 39px 39px 0 #28a6e6, 38px 38px 0 #28a6e6, 37px 37px 0 #28a6e6, 36px 36px 0 #28a6e6, 35px 35px 0 #28a6e6, 34px 34px 0 #28a6e6, 33px 33px 0 #28a6e6, 32px 32px 0 #28a6e6, 31px 31px 0 #28a6e6, 30px 30px 0 #28a6e6, 29px 29px 0 #28a6e6, 28px 28px 0 #28a6e6, 27px 27px 0 #28a6e6, 26px 26px 0 #28a6e6, 25px 25px 0 #28a6e6, 24px 24px 0 #28a6e6, 23px 23px 0 #28a6e6, 22px 22px 0 #28a6e6, 21px 21px 0 #28a6e6, 20px 20px 0 #28a6e6, 19px 19px 0 #28a6e6, 18px 18px 0 #28a6e6, 17px 17px 0 #28a6e6, 16px 16px 0 #28a6e6, 15px 15px 0 #28a6e6, 14px 14px 0 #28a6e6, 13px 13px 0 #28a6e6, 12px 12px 0 #28a6e6, 11px 11px 0 #28a6e6, 10px 10px 0 #28a6e6, 9px 9px 0 #28a6e6, 8px 8px 0 #28a6e6, 7px 7px 0 #28a6e6, 6px 6px 0 #28a6e6, 5px 5px 0 #28a6e6, 4px 4px 0 #28a6e6, 3px 3px 0 #28a6e6, 2px 2px 0 #28a6e6, 1px 1px 0 #28a6e6;
+  background-color: #29c5f6;
+}
+.google {
+  text-shadow: 40px 40px 0 #cc2f1a, 39px 39px 0 #cc2f1a, 38px 38px 0 #cc2f1a, 37px 37px 0 #cc2f1a, 36px 36px 0 #cc2f1a, 35px 35px 0 #cc2f1a, 34px 34px 0 #cc2f1a, 33px 33px 0 #cc2f1a, 32px 32px 0 #cc2f1a, 31px 31px 0 #cc2f1a, 30px 30px 0 #cc2f1a, 29px 29px 0 #cc2f1a, 28px 28px 0 #cc2f1a, 27px 27px 0 #cc2f1a, 26px 26px 0 #cc2f1a, 25px 25px 0 #cc2f1a, 24px 24px 0 #cc2f1a, 23px 23px 0 #cc2f1a, 22px 22px 0 #cc2f1a, 21px 21px 0 #cc2f1a, 20px 20px 0 #cc2f1a, 19px 19px 0 #cc2f1a, 18px 18px 0 #cc2f1a, 17px 17px 0 #cc2f1a, 16px 16px 0 #cc2f1a, 15px 15px 0 #cc2f1a, 14px 14px 0 #cc2f1a, 13px 13px 0 #cc2f1a, 12px 12px 0 #cc2f1a, 11px 11px 0 #cc2f1a, 10px 10px 0 #cc2f1a, 9px 9px 0 #cc2f1a, 8px 8px 0 #cc2f1a, 7px 7px 0 #cc2f1a, 6px 6px 0 #cc2f1a, 5px 5px 0 #cc2f1a, 4px 4px 0 #cc2f1a, 3px 3px 0 #cc2f1a, 2px 2px 0 #cc2f1a, 1px 1px 0 #cc2f1a;
+  background-color: #e75c3c;
+}
+.rss {
+  text-shadow: 40px 40px 0 #e05b1b, 39px 39px 0 #e05b1b, 38px 38px 0 #e05b1b, 37px 37px 0 #e05b1b, 36px 36px 0 #e05b1b, 35px 35px 0 #e05b1b, 34px 34px 0 #e05b1b, 33px 33px 0 #e05b1b, 32px 32px 0 #e05b1b, 31px 31px 0 #e05b1b, 30px 30px 0 #e05b1b, 29px 29px 0 #e05b1b, 28px 28px 0 #e05b1b, 27px 27px 0 #e05b1b, 26px 26px 0 #e05b1b, 25px 25px 0 #e05b1b, 24px 24px 0 #e05b1b, 23px 23px 0 #e05b1b, 22px 22px 0 #e05b1b, 21px 21px 0 #e05b1b, 20px 20px 0 #e05b1b, 19px 19px 0 #e05b1b, 18px 18px 0 #e05b1b, 17px 17px 0 #e05b1b, 16px 16px 0 #e05b1b, 15px 15px 0 #e05b1b, 14px 14px 0 #e05b1b, 13px 13px 0 #e05b1b, 12px 12px 0 #e05b1b, 11px 11px 0 #e05b1b, 10px 10px 0 #e05b1b, 9px 9px 0 #e05b1b, 8px 8px 0 #e05b1b, 7px 7px 0 #e05b1b, 6px 6px 0 #e05b1b, 5px 5px 0 #e05b1b, 4px 4px 0 #e05b1b, 3px 3px 0 #e05b1b, 2px 2px 0 #e05b1b, 1px 1px 0 #e05b1b;
+  background-color: #ff9845;
+}
